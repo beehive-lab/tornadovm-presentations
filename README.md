@@ -22,6 +22,7 @@ Machine-readable metadata lives in [`metadata/`](metadata/) and can be used to r
 | Date | Venue | Title | Slides |
 |---|---|---|---|
 | 2026-06-04 | jPrime | TornadoVM and GPULlama3 | [PDF](slides/2026/jprime/jprime2026-tornadovm-gpullama3.pdf) |
+| 2026-04-21 | OCX | TornadoVM: A Journey from Academia to Open Source Success | [PDF](slides/2026/ocx/OCX26-TornadoVM-Journey-Academia-to-OpenSource-Success.pdf) |
 <!-- END:presentations -->
 
 ## Contributing
