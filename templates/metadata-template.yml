@@ -4,17 +4,13 @@
 
 - year: YYYY
   date: YYYY-MM-DD
-  venue: venue-key            # must match a key in metadata/venues.yml
+  venue: venue-key            # lowercase, stable identifier reused across years
   venue_name: Venue Name
-  event_name: Full Event Name YYYY
   title: Talk Title
   speakers:
     - Firstname Lastname
   location: City, Country
-  path: slides/YYYY/venue-key/event-or-talk-title
-  files:
-    pdf: slides.pdf
-    pptx: slides.pptx         # optional editable source
+  pdf: slides/YYYY/venue-key/talk-title.pdf
   links:
     event: https://example.com
     paper: https://example.com

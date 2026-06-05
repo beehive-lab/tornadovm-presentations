@@ -5,22 +5,17 @@
 # GitHub Pages, and venue/year indexes.
 #
 # Field reference (see templates/metadata-template.yml for a blank entry):
-#   year, date, venue, venue_name, event_name, title, speakers,
-#   location, path, files{pdf,pptx,...}, links{event,paper,...}
+#   year, date, venue, venue_name, title, speakers,
+#   location, pdf, links{event,paper,...}
 
-- year: 2025
-  date: 2025-01-XX
-  venue: hipeac
-  venue_name: HiPEAC
-  event_name: HiPEAC Conference 2025
-  title: TornadoVM Dynamic Reconfiguration
+- year: 2026
+  date: 2026-06-04
+  venue: jprime
+  venue_name: jPrime
+  title: TornadoVM and GPULlama3
   speakers:
     - Firstname Lastname
-  location: Barcelona, Spain
-  path: slides/2025/hipeac/tornadovm-dynamic-reconfiguration
-  files:
-    pdf: slides.pdf
-    pptx: slides.pptx
+  location: Sofia, Bulgaria
+  pdf: slides/2026/jPrime/jprime2026-tornadovm-gpullama3.pdf
   links:
-    event: https://example.com
-    paper: https://example.com
+    event: https://jprime.io
