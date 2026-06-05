@@ -2,7 +2,7 @@
 
 This repository contains slides from talks, tutorials, workshops, conferences, and invited presentations related to [TornadoVM](https://www.tornadovm.org) and its software ecosystem.
 
-It is organized chronologically (by year, then venue, then event) so that presentations from the same venue across different years are kept cleanly separated.
+It is organized chronologically (by year, then venue) so that presentations from the same venue across different years are kept cleanly separated.
 
 ## Repository layout
 
@@ -16,11 +16,13 @@ Machine-readable metadata lives in [`metadata/`](metadata/) and can be used to r
 
 ## Presentations by year
 
+<!-- BEGIN:presentations (auto-generated from metadata/events.yml by scripts/generate_readme.py — do not edit by hand) -->
 ### 2026
 
-| Date | Venue | Event | Title | Slides |
-|---|---|---|---|---|
-| 2026-06-04 | jPrime | jPrime 2026 | TornadoVM and GPULlama3 | [PDF](slides/2026/jPrime/jprime2026-tornadovm-gpullama3.pdf) |
+| Date | Venue | Title | Slides |
+|---|---|---|---|
+| 2026-06-04 | jPrime | TornadoVM and GPULlama3 | [PDF](slides/2026/jprime/jprime2026-tornadovm-gpullama3.pdf) |
+<!-- END:presentations -->
 
 ## Contributing
 

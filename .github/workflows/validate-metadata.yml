@@ -1,0 +1,58 @@
+name: Validate metadata
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  # Runs on every PR (and on pushes to main): does every slide PDF have a
+  # complete, matching entry in metadata/events.yml? This is the merge gate.
+  check-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Check slides match metadata/events.yml
+        run: python3 scripts/check_metadata.py
+
+  # After a PR merges into main, regenerate the README from events.yml and
+  # commit it back. Skipped on PRs (a fork PR can't push the result).
+  regenerate-readme:
+    needs: check-metadata
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate README from metadata/events.yml
+        run: python3 scripts/generate_readme.py
+
+      - name: Commit README if it changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: regenerate README from events.yml [skip ci]"
+            git push
+          fi
