@@ -1,0 +1,10 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.*.swp
+
+# Temporary presentation exports
+~$*.pptx
+~$*.docx
+*.tmp

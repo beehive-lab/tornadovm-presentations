@@ -1,0 +1,20 @@
+# templates/metadata-template.yml
+#
+# Copy this block into metadata/events.yml and fill in the fields.
+
+- year: YYYY
+  date: YYYY-MM-DD
+  venue: venue-key            # must match a key in metadata/venues.yml
+  venue_name: Venue Name
+  event_name: Full Event Name YYYY
+  title: Talk Title
+  speakers:
+    - Firstname Lastname
+  location: City, Country
+  path: slides/YYYY/venue-key/event-or-talk-title
+  files:
+    pdf: slides.pdf
+    pptx: slides.pptx         # optional editable source
+  links:
+    event: https://example.com
+    paper: https://example.com

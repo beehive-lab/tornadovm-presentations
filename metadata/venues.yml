@@ -1,0 +1,22 @@
+# metadata/venues.yml
+#
+# Stable venue identifiers reused across years.
+# The key (e.g. `hipeac`) is the lowercase identifier used in slide paths:
+#   slides/<year>/<venue-key>/...
+
+hipeac:
+  name: HiPEAC
+  type: conference
+  website: https://www.hipeac.net
+
+ppopp:
+  name: PPoPP
+  type: conference
+
+supercomputing:
+  name: Supercomputing / SC
+  type: conference
+
+vee:
+  name: VEE
+  type: conference
