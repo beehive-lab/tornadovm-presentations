@@ -9,6 +9,18 @@
 #   location, pdf, links{event,paper,...}
 
 - year: 2026
+  date: 2026-04-21
+  venue: ocx
+  venue_name: OCX
+  title: 'TornadoVM: A Journey from Academia to Open Source Success'
+  speakers:
+    - Thanos Stratikopoulos
+  location: Brussels, Belgium
+  pdf: slides/2026/ocx/OCX26-TornadoVM-Journey-Academia-to-OpenSource-Success.pdf
+  links:
+    event: https://www.ocxconf.org
+
+- year: 2026
   date: 2026-06-04
   venue: jprime
   venue_name: jPrime
