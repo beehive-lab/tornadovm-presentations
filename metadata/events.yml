@@ -9,6 +9,18 @@
 #   location, pdf, links{event,paper,...}
 
 - year: 2026
+  date: 2026-02-06
+  venue: vdticino
+  venue_name: Voxxed Days Ticino
+  title: 'Write Once, Accelerate Everywhere: GPU-Ready Java with TornadoVM'
+  speakers:
+    - Thanos Stratikopoulos
+  location: Lugano, Switzerland
+  pdf: slides/2026/vdticino/TornadoVM-Voxxed-Ticino-06-Feb-2026.pdf
+  links:
+    event: https://vdt26.voxxeddays.ch/
+
+- year: 2026
   date: 2026-04-21
   venue: ocx
   venue_name: OCX
@@ -19,6 +31,18 @@
   pdf: slides/2026/ocx/OCX26-TornadoVM-Journey-Academia-to-OpenSource-Success.pdf
   links:
     event: https://www.ocxconf.org
+
+- year: 2026
+  date: 2026-04-23
+  venue: devoxxgr
+  venue_name: Devoxx Greece
+  title: 'Building and Running LLMs on GPUs Directly from Java with TornadoVM and GPULlama3.java'
+  speakers:
+    - Michail Papadimitriou
+  location: Athens, Greece
+  pdf: slides/2026/devoxxgr/devoxx-greece-tornadovm-gpullama3.pdf
+  links:
+    event: https://devoxx.gr/
 
 - year: 2026
   date: 2026-06-04
