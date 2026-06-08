@@ -22,7 +22,9 @@ Machine-readable metadata lives in [`metadata/`](metadata/) and can be used to r
 | Date | Venue | Title | Slides |
 |---|---|---|---|
 | 2026-06-04 | jPrime | TornadoVM and GPULlama3 | [PDF](slides/2026/jprime/jprime2026-tornadovm-gpullama3.pdf) |
+| 2026-04-23 | Devoxx Greece | Building and Running LLMs on GPUs Directly from Java with TornadoVM and GPULlama3.java | [PDF](slides/2026/devoxxgr/devoxx-greece-tornadovm-gpullama3.pdf) |
 | 2026-04-21 | OCX | TornadoVM: A Journey from Academia to Open Source Success | [PDF](slides/2026/ocx/OCX26-TornadoVM-Journey-Academia-to-OpenSource-Success.pdf) |
+| 2026-02-06 | Voxxed Days Ticino | Write Once, Accelerate Everywhere: GPU-Ready Java with TornadoVM | [PDF](slides/2026/vdticino/TornadoVM-Voxxed-Ticino-06-Feb-2026.pdf) |
 <!-- END:presentations -->
 
 ## Contributing
