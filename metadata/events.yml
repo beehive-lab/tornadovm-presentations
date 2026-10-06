@@ -55,3 +55,17 @@
   pdf: slides/2026/jprime/jprime2026-tornadovm-gpullama3.pdf
   links:
     event: https://jprime.io
+
+- year: 2026
+  date: 2026-10-06
+  venue: devoxxbe
+  venue_name: Devoxx Belgium
+  title: 'From Install to Insight: A Hands-On GPU Lab for Java Developers'
+  speakers:
+    - Michail Papadimitriou
+    - Thanos Stratikopoulos
+    - Mary Xekalaki
+  location: Antwerp, Belgium
+  pdf: slides/2026/devoxxbe/devoxx-belgium-from-install-to-insight-a-hands-on-gpu-lab-for-Java.pdf
+  links:
+    event: https://devoxx.be/
