@@ -82,3 +82,16 @@
   pdf: slides/2026/devoxxbe/devoxx-belgium-tap-into-the-nvidia-ecosystem-from-Java-with-TornadoVM-Hybrid-API.pdf
   links:
     event: https://devoxx.be/
+
+- year: 2026
+  date: 2026-10-07
+  venue: devoxxbe
+  venue_name: Devoxx Belgium
+  title: 'Building LLM Inference Engines in Java with TornadoVM and the NVIDIA Ecosystem'
+  speakers:
+    - Michail Papadimitriou
+    - Orion Papadakis
+  location: Antwerp, Belgium
+  pdf: slides/2026/devoxxbe/devoxx-belgium-building-llm-inference-engines-in-Java.pdf
+  links:
+    event: https://devoxx.be/
