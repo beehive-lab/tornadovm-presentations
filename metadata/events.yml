@@ -95,3 +95,15 @@
   pdf: slides/2026/devoxxbe/devoxx-belgium-building-llm-inference-engines-in-Java.pdf
   links:
     event: https://devoxx.be/
+
+- year: 2026
+  date: 2026-10-21
+  venue: jdd
+  venue_name: JDD
+  title: 'Java Goes CUDA-Native: Running LLMs and CUDA Kernels with TornadoVM'
+  speakers:
+    - Thanos Stratikopoulos
+  location: Kraków, Poland
+  pdf: slides/2026/jdd/jdd-Java-goes-cuda-native.pdf
+  links:
+    event: https://jdd.org.pl/
