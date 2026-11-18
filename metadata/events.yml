@@ -107,3 +107,27 @@
   pdf: slides/2026/jdd/jdd-Java-goes-cuda-native.pdf
   links:
     event: https://jdd.org.pl/
+
+- year: 2026
+  date: 2026-11-17
+  venue: jugparis
+  venue_name: JUG Paris
+  title: 'Write Once, Accelerate Everywhere: GPU-Ready Java with TornadoVM'
+  speakers:
+    - Thanos Stratikopoulos
+  location: Paris, France
+  pdf: slides/2026/jugparis/jugparis-write-once-accelerate-everywhere.pdf
+  links:
+    event: https://www.parisjug.org/
+
+- year: 2026
+  date: 2026-11-17
+  venue: jugparis
+  venue_name: JUG Paris
+  title: 'Building LLM Inference Engines in Java with TornadoVM and the NVIDIA Ecosystem'
+  speakers:
+    - Thanos Stratikopoulos
+  location: Paris, France
+  pdf: slides/2026/jugparis/jugparis-building-llm-inference-engines-in-java.pdf
+  links:
+    event: https://www.parisjug.org/
