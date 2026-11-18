@@ -21,6 +21,8 @@ Machine-readable metadata lives in [`metadata/`](metadata/) and can be used to r
 
 | Date | Venue | Title | Slides |
 |---|---|---|---|
+| 2026-11-17 | JUG Paris | Write Once, Accelerate Everywhere: GPU-Ready Java with TornadoVM | [PDF](slides/2026/jugparis/jugparis-write-once-accelerate-everywhere.pdf) |
+| 2026-11-17 | JUG Paris | Building LLM Inference Engines in Java with TornadoVM and the NVIDIA Ecosystem | [PDF](slides/2026/jugparis/jugparis-building-llm-inference-engines-in-java.pdf) |
 | 2026-10-21 | JDD | Java Goes CUDA-Native: Running LLMs and CUDA Kernels with TornadoVM | [PDF](slides/2026/jdd/jdd-Java-goes-cuda-native.pdf) |
 | 2026-10-07 | Devoxx Belgium | Building LLM Inference Engines in Java with TornadoVM and the NVIDIA Ecosystem | [PDF](slides/2026/devoxxbe/devoxx-belgium-building-llm-inference-engines-in-Java.pdf) |
 | 2026-10-06 | Devoxx Belgium | From Install to Insight: A Hands-On GPU Lab for Java Developers | [PDF](slides/2026/devoxxbe/devoxx-belgium-from-install-to-insight-a-hands-on-gpu-lab-for-Java.pdf) |
